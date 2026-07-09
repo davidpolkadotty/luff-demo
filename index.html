@@ -147,20 +147,30 @@
 
 <section>
   <h2>The experiment</h2>
-  <p class="sub">LUFF ran as a real product test: paid Instagram campaigns pointed at the onboarding, with full-funnel analytics down to a pre-bundle boot beacon and a stall watchdog.</p>
+  <p class="sub">LUFF ran as a real product experiment — customer validation interviews, repeated paid Instagram campaigns, and full-funnel analytics down to a pre-bundle boot beacon and a stall watchdog.</p>
   <div class="honest">
     <h3>What the data said — and what I did about it</h3>
     <p>
-      The instrumentation showed the load was never the problem (95% of ad clicks rendered in ~1s;
-      zero stalls) — the funnel leaked at the top: 65% of paid clicks bounced inside 3 seconds,
-      before evaluating anything, and the engaged minority gravitated to nightlife scenes over the
-      beach scenes the ads sold. Verdict: cold interruption ads were the wrong first channel for a
-      taste product.
+      The demand signals were real: validation interviews kept surfacing the same pain — great
+      clothes scattered across dozens of small-label sites — and the ads earned genuine clicks.
+      The product held up too: 95% of ad clicks rendered in about a second, with zero stalls.
+      What I couldn't crack was <b>stickiness</b>. I iterated the onboarding hard — a photo-grid
+      taste quiz, a forced-choice "this or that" opener, an occasion-first picker, each with its
+      own copy tests — and while every version moved first-session engagement, none of them turned
+      interest into a habit across many ad tests.
     </p>
     <p>
-      So I sunset the hosted product and kept what's durable: the catalog pipeline, the taste
-      models, and this fully static demo — $0/month to run, nothing to break. The lesson I'd apply
-      next time: validate with communities before paying for cold traffic.
+      The part I'm proudest of is the <b>recommendation engine</b>: a vision-tagged style taxonomy
+      plus FashionCLIP embeddings that delivered genuinely good personalization from very few
+      datapoints — a handful of taps visibly reshaped the feed. It passed the most honest test I
+      had: it kept finding me clothes I loved and wouldn't have found otherwise. That engine is
+      what's running in the demo above.
+    </p>
+    <p>
+      So I made the call: sunset the hosted product, keep what's durable — the catalog pipeline,
+      the recommender, and this fully static demo ($0/month, nothing to break). What I'd do
+      differently: run cheaper stickiness experiments with warm communities before paying for
+      cold traffic.
     </p>
   </div>
 </section>
